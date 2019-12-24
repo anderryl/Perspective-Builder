@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F27600AD23B2D1A30072DE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27600AC23B2D1A30072DE9C /* AppDelegate.swift */; };
+		F27600AF23B2D1A30072DE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27600AE23B2D1A30072DE9C /* ViewController.swift */; };
+		F27600B123B2D1A50072DE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27600B023B2D1A50072DE9C /* Assets.xcassets */; };
+		F27600B423B2D1A50072DE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27600B223B2D1A50072DE9C /* Main.storyboard */; };
+		F27600C023B2D1A50072DE9C /* Perspective_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27600BF23B2D1A50072DE9C /* Perspective_BuilderTests.swift */; };
+		F27600CB23B2D1A50072DE9C /* Perspective_BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27600CA23B2D1A50072DE9C /* Perspective_BuilderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F27600BC23B2D1A50072DE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F27600A123B2D1A30072DE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27600A823B2D1A30072DE9C;
+			remoteInfo = "Perspective Builder";
+		};
+		F27600C723B2D1A50072DE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F27600A123B2D1A30072DE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27600A823B2D1A30072DE9C;
+			remoteInfo = "Perspective Builder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F27600A923B2D1A30072DE9C /* Perspective Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Perspective Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27600AC23B2D1A30072DE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F27600AE23B2D1A30072DE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F27600B023B2D1A50072DE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F27600B323B2D1A50072DE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F27600B523B2D1A50072DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27600B623B2D1A50072DE9C /* Perspective_Builder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Perspective_Builder.entitlements; sourceTree = "<group>"; };
+		F27600BB23B2D1A50072DE9C /* Perspective BuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perspective BuilderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27600BF23B2D1A50072DE9C /* Perspective_BuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perspective_BuilderTests.swift; sourceTree = "<group>"; };
+		F27600C123B2D1A50072DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27600C623B2D1A50072DE9C /* Perspective BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Perspective BuilderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27600CA23B2D1A50072DE9C /* Perspective_BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perspective_BuilderUITests.swift; sourceTree = "<group>"; };
+		F27600CC23B2D1A50072DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F27600A623B2D1A30072DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27600B823B2D1A50072DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27600C323B2D1A50072DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F27600A023B2D1A30072DE9C = {
+			isa = PBXGroup;
+			children = (
+				F27600AB23B2D1A30072DE9C /* Perspective Builder */,
+				F27600BE23B2D1A50072DE9C /* Perspective BuilderTests */,
+				F27600C923B2D1A50072DE9C /* Perspective BuilderUITests */,
+				F27600AA23B2D1A30072DE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F27600AA23B2D1A30072DE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F27600A923B2D1A30072DE9C /* Perspective Builder.app */,
+				F27600BB23B2D1A50072DE9C /* Perspective BuilderTests.xctest */,
+				F27600C623B2D1A50072DE9C /* Perspective BuilderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F27600AB23B2D1A30072DE9C /* Perspective Builder */ = {
+			isa = PBXGroup;
+			children = (
+				F27600AC23B2D1A30072DE9C /* AppDelegate.swift */,
+				F27600AE23B2D1A30072DE9C /* ViewController.swift */,
+				F27600B023B2D1A50072DE9C /* Assets.xcassets */,
+				F27600B223B2D1A50072DE9C /* Main.storyboard */,
+				F27600B523B2D1A50072DE9C /* Info.plist */,
+				F27600B623B2D1A50072DE9C /* Perspective_Builder.entitlements */,
+			);
+			path = "Perspective Builder";
+			sourceTree = "<group>";
+		};
+		F27600BE23B2D1A50072DE9C /* Perspective BuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F27600BF23B2D1A50072DE9C /* Perspective_BuilderTests.swift */,
+				F27600C123B2D1A50072DE9C /* Info.plist */,
+			);
+			path = "Perspective BuilderTests";
+			sourceTree = "<group>";
+		};
+		F27600C923B2D1A50072DE9C /* Perspective BuilderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F27600CA23B2D1A50072DE9C /* Perspective_BuilderUITests.swift */,
+				F27600CC23B2D1A50072DE9C /* Info.plist */,
+			);
+			path = "Perspective BuilderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F27600A823B2D1A30072DE9C /* Perspective Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27600CF23B2D1A50072DE9C /* Build configuration list for PBXNativeTarget "Perspective Builder" */;
+			buildPhases = (
+				F27600A523B2D1A30072DE9C /* Sources */,
+				F27600A623B2D1A30072DE9C /* Frameworks */,
+				F27600A723B2D1A30072DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Perspective Builder";
+			productName = "Perspective Builder";
+			productReference = F27600A923B2D1A30072DE9C /* Perspective Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F27600BA23B2D1A50072DE9C /* Perspective BuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27600D223B2D1A50072DE9C /* Build configuration list for PBXNativeTarget "Perspective BuilderTests" */;
+			buildPhases = (
+				F27600B723B2D1A50072DE9C /* Sources */,
+				F27600B823B2D1A50072DE9C /* Frameworks */,
+				F27600B923B2D1A50072DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27600BD23B2D1A50072DE9C /* PBXTargetDependency */,
+			);
+			name = "Perspective BuilderTests";
+			productName = "Perspective BuilderTests";
+			productReference = F27600BB23B2D1A50072DE9C /* Perspective BuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F27600C523B2D1A50072DE9C /* Perspective BuilderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27600D523B2D1A50072DE9C /* Build configuration list for PBXNativeTarget "Perspective BuilderUITests" */;
+			buildPhases = (
+				F27600C223B2D1A50072DE9C /* Sources */,
+				F27600C323B2D1A50072DE9C /* Frameworks */,
+				F27600C423B2D1A50072DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27600C823B2D1A50072DE9C /* PBXTargetDependency */,
+			);
+			name = "Perspective BuilderUITests";
+			productName = "Perspective BuilderUITests";
+			productReference = F27600C623B2D1A50072DE9C /* Perspective BuilderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F27600A123B2D1A30072DE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Anderson, Todd W.";
+				TargetAttributes = {
+					F27600A823B2D1A30072DE9C = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F27600BA23B2D1A50072DE9C = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F27600A823B2D1A30072DE9C;
+					};
+					F27600C523B2D1A50072DE9C = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F27600A823B2D1A30072DE9C;
+					};
+				};
+			};
+			buildConfigurationList = F27600A423B2D1A30072DE9C /* Build configuration list for PBXProject "Perspective Builder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F27600A023B2D1A30072DE9C;
+			productRefGroup = F27600AA23B2D1A30072DE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27600A823B2D1A30072DE9C /* Perspective Builder */,
+				F27600BA23B2D1A50072DE9C /* Perspective BuilderTests */,
+				F27600C523B2D1A50072DE9C /* Perspective BuilderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F27600A723B2D1A30072DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27600B123B2D1A50072DE9C /* Assets.xcassets in Resources */,
+				F27600B423B2D1A50072DE9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27600B923B2D1A50072DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27600C423B2D1A50072DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F27600A523B2D1A30072DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27600AF23B2D1A30072DE9C /* ViewController.swift in Sources */,
+				F27600AD23B2D1A30072DE9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27600B723B2D1A50072DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27600C023B2D1A50072DE9C /* Perspective_BuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27600C223B2D1A50072DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27600CB23B2D1A50072DE9C /* Perspective_BuilderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F27600BD23B2D1A50072DE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F27600A823B2D1A30072DE9C /* Perspective Builder */;
+			targetProxy = F27600BC23B2D1A50072DE9C /* PBXContainerItemProxy */;
+		};
+		F27600C823B2D1A50072DE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F27600A823B2D1A30072DE9C /* Perspective Builder */;
+			targetProxy = F27600C723B2D1A50072DE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F27600B223B2D1A50072DE9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F27600B323B2D1A50072DE9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F27600CD23B2D1A50072DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F27600CE23B2D1A50072DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F27600D023B2D1A50072DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Perspective Builder/Perspective_Builder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5824JC6LG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Perspective Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RAJAPP.Perspective-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F27600D123B2D1A50072DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Perspective Builder/Perspective_Builder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5824JC6LG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Perspective Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RAJAPP.Perspective-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F27600D323B2D1A50072DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5824JC6LG;
+				INFOPLIST_FILE = "Perspective BuilderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RAJAPP.Perspective-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perspective Builder.app/Contents/MacOS/Perspective Builder";
+			};
+			name = Debug;
+		};
+		F27600D423B2D1A50072DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5824JC6LG;
+				INFOPLIST_FILE = "Perspective BuilderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RAJAPP.Perspective-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perspective Builder.app/Contents/MacOS/Perspective Builder";
+			};
+			name = Release;
+		};
+		F27600D623B2D1A50072DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5824JC6LG;
+				INFOPLIST_FILE = "Perspective BuilderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RAJAPP.Perspective-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Perspective Builder";
+			};
+			name = Debug;
+		};
+		F27600D723B2D1A50072DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5824JC6LG;
+				INFOPLIST_FILE = "Perspective BuilderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RAJAPP.Perspective-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Perspective Builder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F27600A423B2D1A30072DE9C /* Build configuration list for PBXProject "Perspective Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27600CD23B2D1A50072DE9C /* Debug */,
+				F27600CE23B2D1A50072DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27600CF23B2D1A50072DE9C /* Build configuration list for PBXNativeTarget "Perspective Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27600D023B2D1A50072DE9C /* Debug */,
+				F27600D123B2D1A50072DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27600D223B2D1A50072DE9C /* Build configuration list for PBXNativeTarget "Perspective BuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27600D323B2D1A50072DE9C /* Debug */,
+				F27600D423B2D1A50072DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27600D523B2D1A50072DE9C /* Build configuration list for PBXNativeTarget "Perspective BuilderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27600D623B2D1A50072DE9C /* Debug */,
+				F27600D723B2D1A50072DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F27600A123B2D1A30072DE9C /* Project object */;
+}
